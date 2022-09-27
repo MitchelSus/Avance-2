@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="./admin.css" type="text/css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+        <!-- SIDEBAR -->
+        <input type="checkbox" class="menu__checkbox" id="sideview-crawl">
+        <div class="side-view">
+            <nav class="admin-view__menu">
+                <div class="admin-view__header">
+                    <h3 class="company-name">
+                        <span>ProfeReview</span>
+                    </h3>
+                    <div class="menu-icon">
+                        <label for="sideview-crawl" class="menu-bar">
+                            
+                                <img src="arrows.png" alt="">
+                            
+                        </label>
+                    </div>
+                </div>
+                <div class="user-profile">
+                    <img src="OldTecaher.png" alt="admin-picture">
+                    <h3 class="admin-name">
+                        <span>Mitchel Jesús Nuñez Retamozo</span>
+                    </h3>
+                </div>
+                <ul class="side-nav">
+                    <li class="side-nav__active">
+                        <a href="#">
+                            <svg>
+                                <use xlink:href='./icons.svg#icon-home'></use>
+                            </svg>
+                            <span>Inicio</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__profesores">
+                        <a href="#">
+                            <svg>
+                                <use xlink:href='./icons.svg#icon-package'></use>
+                            </svg>
+                            <span>Profesores</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__alumnos">
+                        <a href="#">
+                            <svg>
+                                <use xlink:href='./icons.svg#icon-user'></use>
+                            </svg>
+                            <span>Alumnos</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__solicitudes">
+                        <a href="#">
+                            <svg>
+                                <use xlink:href='./icons.svg#icon-briefcase'></use>
+                            </svg>
+                            <span>Solicitudes</span>
+                        </a>
+                    </li>
+                    </li>
+                </ul>
+            </nav>
+
+            <footer class="footer">
+                <p>&copy; ProfeReview by MiSus</p>
+            </footer>
+        </div>
+
+        <!-- MAIN --->
+        <main class="main main-content">
+            <div class="header">
+                <h1 color>Bienvenido, Mitchel 😎</h1>
+                <p>General</p>
+            </div>
+            
+            <div class="overview-cards">
+                <div class="card product-card">
+                    <div class="title">
+                        <h2>Profesores</h2>
+                    </div>
+                    <span class="content product-content">
+                        <svg>
+                            <use xlink:href='./icons.svg#icon-package'></use>
+                        </svg>
+                        <div class="number">
+                            <h4>5</h4>
+                        </div>
+                    </span>
+                </div>
+                <div class="card user-card">
+                    <div class="title">
+                        <h2>Alumnos</h2>
+                    </div>
+                    <span class="content user-content">
+                        <svg>
+                            <use xlink:href='./icons.svg#icon-user'></use>
+                        </svg>
+                        <div class="number">
+                            <h4>5</h4>
+                        </div>
+                    </span>
+                </div>
+                <div class="card order-card">
+                    <div class="title">
+                        <h2>Solicitudes</h2>
+                    </div>
+                    <span class="content order-content">
+                        <svg>
+                            <use xlink:href='./icons.svg#icon-briefcase'></use>
+                        </svg>
+                        <div class="number">
+                            <h4>5</h4>
+                        </div>
+                    </span>
+                </div>
+            </div>
+        </main>
+
+        <!-- Product Section -->
+        <section class="product-section">
+            <div class="header">
+                <h1>Profesores</h1>
+            </div>
+
+            <div class="container product-container">
+                <div class="profesores">
+                    <div class="profesores-keys">
+                        <div class="keys product-id">
+                            ID
+                        </div>
+                        <div class="keys product-name">
+                            Nombre
+                        </div>
+                        <div class="keys product-description">
+                            Estudios
+                        </div>
+                        <div class="keys product-price">
+                            Certificaciones
+                        </div>
+                        <div class="keys product-image">
+                            Sexo
+                            
+                        </div>
+                        <div class="keys product-action_value">
+                            Imagen
+                        </div>
+                    </div>
+                    <div class="profesores-values">
+                        <div class="values product-id_value">
+                            1
+                        </div>
+                        <div class="values product-name_value">
+                             Mitchel Jesús Nuñez Retamozo
+                        </div>
+                        <div class="values product-description_value">
+                            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                        </div>
+                        <div class="values product-price_value">
+                            sistemas
+                        </div>
+                        <div class="values product-description_value">
+                            M
+                        </div>
+                        <div class="values product-image_value">
+                            Image
+                        </div>
+                        <div class="values product-action_value">
+                            <a>
+                                <svg>
+                                    <use xlink:href='./icons.svg#icon-edit'></use>
+                                </svg>
+                            </a>
+                            <svg>
+                                <use xlink:href='./icons.svg#icon-delete'></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="profesores-values">
+                        <div class="product-id_value">
+                            1
+                        </div>
+                        <div class="values product-name_value">
+                            Chuck Taylor
+                        </div>
+                        <div class="values product-description_value">
+                            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                        </div>
+                        <div class="values product-price_value">
+                            sistemas
+                        </div>
+                        <div class="values product-description_value">
+                            M
+                        </div>
+                        <div class="values product-image_value">
+                            Image
+                        </div>
+                        <div class="values product-action_value">
+                            <a>
+                                <svg>
+                                    <use xlink:href='./icons.svg#icon-edit'></use>
+                                </svg>
+                            </a>
+                            <svg>
+                                <use xlink:href='./icons.svg#icon-delete'></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- User Section -->
+        <section class="user-section">
+            <div class="header">
+                <h1>Alumnos</h1>
+            </div>
+
+            <div class="container user-container">
+                <div class="alumnos">
+                    <div class="alumnos-keys">
+                        <div class="keys user-id">
+                            ID
+                        </div>
+                        <div class="keys user-name">
+                            Nombre
+                        </div>
+                        <div class="keys user-email">
+                            Email
+                        </div>
+                        <div class="keys user-password">
+                            Sexo
+                        </div>
+                    </div>
+                    <div class="alumnos-values">
+                        <div class="values user-id_value">
+                            1
+                        </div>
+                        <div class="values user-name_value">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut numquam corrupti dolore? Iste, qui modi veniam magni natus quo distinctio quos sint nemo sunt vitae dicta fugit debitis fugiat quod.
+                        </div>
+                        <div class="values user-email_value">
+                            natsuki@gmail.com
+                        </div>
+                        <div class="values user-password_value">
+                            M
+                        </div>
+                        <div class="values user-action_value">
+                            <a>
+                                <svg>
+                                    <use xlink:href='./icons.svg#icon-edit'></use>
+                                </svg>
+                            </a>
+                            <svg>
+                                <use xlink:href='./icons.svg#icon-delete'></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="alumnos-values">
+                        <div class="values user-id_value">
+                            1
+                        </div>
+                        <div class="values user-name_value">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nesciunt distinctio hic esse tenetur consequatur facilis magnam eius, harum quo eligendi reiciendis, mollitia ex inventore laudantium repudiandae corrupti fugiat quaerat?
+                        </div>
+                        <div class="values user-email_value">
+                            natsuki@gmail.com
+                        </div>
+                        <div class="values user-password_value">
+                            F
+                        </div>
+                        <div class="values user-action_value">
+                            <a>
+                                <svg>
+                                    <use xlink:href='./icons.svg#icon-edit'></use>
+                                </svg>
+                            </a>
+                            <svg>
+                                <use xlink:href='./icons.svg#icon-delete'></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Order Section -->
+        <section class="order-section">
+            <div class="header">
+                <h1>Solicitudes</h1>
+            </div>
+
+            <div class="container order-container">
+                <div class="solicitudes">
+                    <div class="solicitudes-keys">
+                        <div class="keys order-id">
+                            ID
+                        </div>
+                        <div class="keys product-name">
+                            Usuario
+                        </div>
+                        <div class="keys user-name">
+                            Correo
+                        </div>
+                        <div class="keys order-placedAt">
+                           Fecha
+                        </div>
+                        <div class="keys order-price">
+                            Razón
+                        </div>
+                    </div>
+                    <div class="solicitudes-values">
+                        <div class="values order-id_value">
+                            1
+                        </div>
+                        <div class="values product-name_value">
+                            asdasd
+                        </div>
+                        <div class="values user-name_value">
+                            asdasd
+                        </div>
+                        <div class="values order-placedAt_value">
+                            asdasd
+                        </div>
+                        <div class="values order-price">
+                            asdasd
+                        </div>
+                        <div class="values order-action_value">
+                            <svg>
+                                <use xlink:href='./icons.svg#icon-delete'></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="solicitudes-values">
+                        <div class="values order-id_value">
+                            1
+                        </div>
+                        <div class="values product-name_value">
+                           asdasd
+                        </div>
+                        <div class="values user-name_value">
+                            asdasd
+                        </div>
+                        <div class="values order-placedAt_value">
+                            asdasd
+                        </div>
+                        <div class="values order-price">
+                            asdasd
+                        </div>
+                        <div class="values order-action_value">
+                            <svg>
+                                <use xlink:href='./icons.svg#icon-delete'></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!---- NEW PRODUCT ---->
+        <section class="new--product_container">
+            <div class="new--product_header">
+                <div class="back--btn">
+                    <a>
+                        <svg>
+                            <use xlink:href='./icons.svg#icon-skip-back'></use>
+                        </svg>
+                        <span>Back</span>
+                    </a>
+                </div>
+                <div class="header">
+                    <h1>New Product</h1> 
+                </div>
+            </div>
+            
+
+            <form class="form new--productCreate__form">
+                <div class="form-new product__name">
+                    <label>Name</label>
+                    <input type="text" class="new--product_name" placeholder="Product Name" onfocus="this.placeholder= ''" onblur="this.placeholder= 'Product Name'" required>
+                </div>
+                <div class="form-new product__keyword">
+                    <label>Keyword</label>
+                    <input type="text" class="new--product_keyword" placeholder="Product Keyword" onfocus="this.placeholder= ''" onblur="this.placeholder= 'Product Keyword'" required>
+                </div>
+                <div class="form-new product__brand">
+                    <label>Brand</label>
+                    <input type="text" class="new--product_brand" placeholder="Product Brand" onfocus="this.placeholder= ''" onblur="this.placeholder= 'Product Brand'" required>
+                </div>
+                <div class="form-new product__description">
+                    <label>Description</label>
+                    <textarea class="new--product_description" rows="10" cols="40" placeholder="Product Description" onfocus="this.placeholder= ''" onblur="this.placeholder= 'Product Description'" required></textarea>
+                </div>
+                <div class="form-new product__price">
+                    <label>Price</label>
+                    <input type="text" class="new--product_price" placeholder="Product Price" onfocus="this.placeholder= ''" onblur="this.placeholder= 'Product Price'" required>
+                </div>
+                <div class="form-new product__image">
+                    <label>Image</label>
+                    <input type="text" class="new--product_image" placeholder="Product Image" onfocus="this.placeholder= ''" onblur="this.placeholder= 'Product Image'" required>
+                </div>
+                <div class="new--product_create">
+                    <button class="btn btn--create">Create</button>
+                </div>
+            </form>
+        </section>
+
+        <!---- UPDATE PRODUCT ---->
+        <section class="update--product_container">
+            <div class="update--product_header">
+                <div class="back--btn">
+                    <a>
+                        <svg>
+                            <use xlink:href='./icons.svg#icon-skip-back'></use>
+                        </svg>
+                        <span>Back</span>
+                    </a>
+                </div>
+                <div class="header">
+                    <h1>Update Product</h1> 
+                </div>
+            </div>
+            
+
+            <form class="form update--product__form">
+                <div class="form-update product__name">
+                    <label>Name</label>
+                    <input type="text" class="new--product_name" placeholder="Product Name" onfocus="this.placeholder= ''" onblur="this.placeholder= 'Product Name'" required>
+                </div>
+                <div class="form-update product__keyword">
+                    <label>Keyword</label>
+                    <input type="text" class="new--product_keyword" placeholder="Product Keyword" onfocus="this.placeholder= ''" onblur="this.placeholder= 'Product Keyword'" required>
+                </div>
+                <div class="form-update product__brand">
+                    <label>Brand</label>
+                    <input type="text" class="new--product_brand" placeholder="Product Brand" onfocus="this.placeholder= ''" onblur="this.placeholder= 'Product Brand'" required>
+                </div>
+                <div class="form-update product__description">
+                    <label>Description</label>
+                    <textarea class="new--product_description" rows="10" cols="40" placeholder="Product Description" onfocus="this.placeholder= ''" onblur="this.placeholder= 'Product Description'" required></textarea>
+                </div>
+                <div class="form-update product__price">
+                    <label>Price</label>
+                    <input type="text" class="new--product_price" placeholder="Product Price" onfocus="this.placeholder= ''" onblur="this.placeholder= 'Product Price'" required>
+                </div>
+                <div class="form-update product__image">
+                    <label>Image</label>
+                    <input type="text" class="new--product_image" placeholder="Product Image" onfocus="this.placeholder= ''" onblur="this.placeholder= 'Product Image'" required>
+                </div>
+                <div class="update--product">
+                    <button class="btn btn--update">Update</button>
+                </div>
+            </form>
+        </section>
+
+        <!---- NEW USER ---->
+        <section class="new--user_container">
+            <div class="new--user_header">
+                <div class="back--btn">
+                    <a>
+                        <svg>
+                            <use xlink:href='./icons.svg#icon-skip-back'></use>
+                        </svg>
+                        <span>Back</span>
+                    </a>
+                </div>
+                <div class="header">
+                    <h1>New User</h1> 
+                </div>
+            </div>
+            
+            </form>
+        </section>
+
+        <!------ UPDATE USER ----->
+        <section class="update--user_container">
+            <div class="update--user_header">
+                <div class="back--btn">
+                    <a>
+                        <svg>
+                            <use xlink:href='./icons.svg#icon-skip-back'></use>
+                        </svg>
+                        <span>Back</span>
+                    </a>
+                </div>
+                <div class="header">
+                    <h1>Update User</h1> 
+                </div>
+            </div>
+        </section>
+        <script src="app.js"></script>
+</body>
+</html>
